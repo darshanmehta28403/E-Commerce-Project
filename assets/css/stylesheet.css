@@ -1,0 +1,450 @@
+:root{
+	--clr1: #416E7A;
+	--clr2: #193a43;
+	--clr3: #E4ECE6;
+	--clr4: #F1EEED;
+}
+
+body{
+	/*font-family: 'Be Vietnam Pro', sans-serif;
+	font-family: 'Damion', cursive;*/
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.topdiv{
+	background-color: #416E7A;
+	padding: 10px;
+}
+
+.topdiv a{
+	color: white;
+	font-size: 0.8rem;
+}
+
+.topdiv span{
+	color: white;
+	font-size: 0.9rem;
+	margin-right: 20px;
+	border-right: 2px solid grey;
+	padding-right: 20px;
+}
+
+.top-icon{
+	border-right: 2px solid grey;
+	padding-right: 20px;
+}
+
+.topdiv a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+.navbar-brand{
+	font-family: 'Damion', cursive;
+}
+
+.nav-link{
+	color: black;
+	transition: 0.4s;
+}
+
+.nav-link:hover{
+	color: var(--clr1) !important;
+	transition: 0.4s;
+}
+
+.main-div{
+	height: 500px;
+	position: relative;
+}
+
+.abs-div{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.white-div{
+	background-color: rgba(255,255,255,0.6);
+	height: 500px;
+	padding-top: 100px;
+}
+
+.white-div .container{
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+.white-div .container li{
+	font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.bgimg{
+	object-fit: cover;
+}
+
+.icon{
+	color: var(--clr1);
+	font-size: 2.5rem;
+}
+
+.features-div{
+	padding-left: 100px;
+	margin-top: 40px;
+}
+
+.features-div .col-lg-3:hover .icon{
+	font-size: 3rem;
+	transition: 0.4s;
+}
+
+.features-div small{
+	font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.div2{
+	margin-top: 100px;
+}
+
+.div2-title h6{
+	color: #6C757D;
+	letter-spacing: 5px;
+	font-size: 0.9rem;
+	font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.div2-title h2{
+	color: black;
+	font-size: 3.3rem;
+	margin-top: 20px;
+}
+
+.card-img{
+	position: relative;
+	height: 275px;
+}
+
+.card-img-abs{
+	position: absolute;
+	bottom: 0px;
+	background-color: white;
+	padding: 10px;
+	width: 100%;
+	color: white;
+}
+
+.card:hover .card-img-abs{
+	background-color: var(--clr1);
+	color: white;
+	transition: 0.4s;
+}
+
+.card-img-abs a{
+	color: white;
+}
+
+.card-img-abs a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+.card-text{
+	color: var(--clr1);
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.div2 .btn{
+	background-color: var(--clr1);
+	color: white;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.div3{
+	background-color: var(--clr3);
+	margin-top: 80px;
+}
+
+.div3 h2{
+	color: var(--clr1);
+}
+
+.div3 i{
+	color: #5D848D;
+}
+
+.div3 p:nth-child(3){
+	font-family: 'Be Vietnam Pro', sans-serif !important;
+	font-size: 0.9rem;
+}
+
+footer{
+	background-color: var(--clr4);
+}
+
+footer p,footer b{
+	font-family: 'Be Vietnam Pro', sans-serif !important;
+	font-size: 0.8rem;
+}
+
+footer a{
+	color: black;
+}
+
+footer a:hover{
+	text-decoration: none;
+	color: black;
+}
+
+footer .footer-title{
+	color: black;
+	font-weight: 500;
+	font-size: 2.5rem;
+	font-family: 'Damion', cursive;
+}
+
+footer li{
+	margin-top: 15px;
+}
+
+.footer-sm-icon{
+	padding: 10px;
+	background-color: black;
+	color: var(--clr4);
+	font-size: 0.9rem;
+	transition: 0.4s;
+}
+
+.footer-sm-icon:hover{
+	background-color: var(--clr4);
+	color: black;
+	border: 2px solid black;
+	transition: 0.4s;
+}
+
+.product-title{
+	color: var(--clr2);
+}
+
+/*.price{
+	color: var(--clr1);
+	margin-top: 20px;
+	margin-bottom: 20px;
+}*/
+
+.detail-icon{
+	color: var(--clr1);
+	font-size: 2rem;
+}
+
+.product-des-div .btn{
+	font-size: 1.5rem;
+}
+
+.product-des-div li{
+	font-family: 'Be Vietnam Pro', sans-serif !important;
+	font-size: 0.9rem;
+	margin-top: 10px;
+}
+
+.product-des{
+	font-family: 'Be Vietnam Pro', sans-serif !important;
+	font-size: 0.9rem;
+}
+
+.pro-des{
+	font-family: 'Be Vietnam Pro', sans-serif !important;
+	font-size: 0.9rem;
+}
+
+.item-detail p{
+	color: var(--clr2);
+}
+
+/*.item-detail a{
+	background-color: var(--clr2);
+	padding: 10px;
+	color: white;
+	transition: 0.4s;
+}
+
+.item-detail a:hover{
+	background-color: white;
+	padding: 10px;
+	color: var(--clr2);
+	border: 2px solid var(--clr2);
+	transition: 0.4s;
+}*/
+
+.item-detail h6{
+	color: var(--clr2);
+	border-bottom: 2px solid var(--clr2);
+	display: inline-block;
+	padding-bottom: 5px;
+}
+
+.item-detail h6{
+	margin-top: 20px;
+}
+
+.product-p{
+	width: 75%;
+	font-family: 'Be Vietnam Pro', sans-serif !important;
+	font-size: 0.9rem;
+}
+
+#b{
+	display: none;
+}
+
+#c{
+	display: none;
+}
+
+.abus h3{
+	color: var(--clr2);
+	font-weight: 900;
+}
+
+.abus i{
+	color: var(--clr1);
+}
+
+.counts{
+	padding-bottom: 50px;
+	background-color: var(--clr3);
+	margin-top: 50px;
+}
+
+.counts h3{
+	color: var(--clr1);
+}
+
+.counts h4{
+	color: var(--clr2);
+}
+
+.cus-title h2{
+	color: var(--clr2);
+}
+
+.cus h5{
+	color: var(--clr1);
+}
+
+.cus i{
+	color: var(--clr1);
+}
+
+.cus span{
+	color: black;
+}
+
+.cus a:hover{
+	color: black;
+	text-decoration: none;
+}
+
+.cus-submit{
+	background-color: var(--clr1);
+	color: white !important;
+}
+
+.similar-items .card-img{
+	height: 390px;
+}
+
+.abus{
+	padding-right: 10%;
+	padding-left: 10%;
+}
+
+.abus p{
+	font-family: 'Be Vietnam Pro', sans-serif !important;
+	font-size: 0.9rem;
+}
+
+.abus li{
+	font-family: 'Be Vietnam Pro', sans-serif !important;
+	font-size: 0.9rem;
+}
+
+.abus img{
+	height: 400px;
+	width: 100%;
+	object-fit: cover;
+}
+
+.img1{
+	object-position: center;
+}
+
+.img3{
+	object-position: top;
+}
+
+@media only screen and (min-width: 279px) and (max-width: 600px){
+
+	.features-div .col-lg-3{
+		margin-top: 30px;
+	}
+
+	.main-div{
+		height: 900px;
+	}
+
+	.card-img{
+		position: relative;
+		height: 365px;
+	}
+
+	.card-img-abs{
+		background-color: var(--clr1);
+		color: white;
+	}
+
+	.item-detail h6{
+		margin-top: 30px;
+	}
+
+	.white-div{
+		padding-top: 0px;
+	}
+
+}
+
+@media only screen and (min-width: 700px) and (max-width: 900px){
+
+	.card-img{
+		position: relative;
+		height: 185px;
+	}
+
+	.card-img-abs{
+		background-color: var(--clr1);
+		color: white;
+	}
+
+	footer .footer-title{
+		font-size: 1.5rem;
+	}
+
+	.item-detail h6{
+		margin-top: 60px;
+	}
+
+	.cus a{
+		font-size: 0.8rem;
+	}
+
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1200px){
+
+	.card-img-abs{
+		background-color: var(--clr1);
+		color: white;
+	}	
+}
